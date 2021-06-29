@@ -1,4 +1,4 @@
-baseurl = "https://haochen233.github.io/public"
+baseurl = "https://haochen233.github.io/"
 theme = "mainroad"
 languageCode = "en-us"
 title = "haochen233 tech"
