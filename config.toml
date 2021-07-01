@@ -5,6 +5,7 @@ title = "晨昊的博客"
 paginate = "10" # Number of posts per page
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+summaryLength = 3
 
 [Author] # Used in authorbox
   name = "zhang chenhao"
@@ -50,7 +51,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   list = "right"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages", "friends"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
   # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
 
@@ -63,3 +64,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   # Enable parts of social widget
   github = "haochen233"
   email = "zhangchenhao233@gmail.com"
+  
+[[Params.widgets.social.friends]]
+  title = "阿畅的博客 | A Chang Blog"
+  url = "http://blog.achang.tech/"
